@@ -20,7 +20,7 @@
 .Gallery:hover {
   border: 2px solid hsl(0, 1%, 72%);
 }
-.container {
+.contain {
   text-align: center;
 }
 .Gallery a {
@@ -40,13 +40,16 @@
 .Gallery img {
   width: 100%;
   height: auto;
-}
-.navbar {
+} .navbar {
   background-color: hsla(0, 0%, 0%, 0.904);
   height: 56px;
   position: fixed;
   width: 100%;
+ }
+ .navbar a{
+  background-color: hsla(0, 0%, 0%, 0.904);
 }
+ /*
 .navbar a {
   color: hsla(0, 0%, 100%, 0.911);
   padding: 10px;
@@ -59,19 +62,19 @@
   padding: 17px;
   text-align: center;
 }
-
+*/
 .navbar a:hover {
   color: hsl(180, 66%, 55%);
 }
 .navbar a:active {
   color: hsl(249, 70%, 59%);
-}
+} 
 .tech {
   font-size: 30px;
   padding-right: 30px;
-  color: hsla(128, 83%, 54%, 0.952);
+  color: white;
   text-decoration: none;
-
+  font-family: serif;
   margin: auto;
   text-align: center;
   font-weight: bolder;
